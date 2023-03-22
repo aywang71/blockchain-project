@@ -1,0 +1,13 @@
+Summary: An NFT that changes color or hue over time the more times it changes owners. Like a coin, it may "tarnish" over time as it is exchange more
+
+Background: https://decrypt.co/resources/what-are-dynamic-nfts-the-living-tokens-that-change-over-time
+
+
+(I think) Backend would alter the pixel composition of the NFT slightly, or you would maintain a list of NFT that tarnish over time, and return an index increased by 1 (increases the tarnish-level by 1) and burn previous. Not sure what the best implementation of this would be
+
+Tech stack:
+- Frontend auctioning site. (Not sure if this would need to be different from a typical auction frontend setup)
+- Backend: standard 3 smart contract setup for auctioning setup, the actual NFT smart contract would need to be altered to slightly change the IPFS or something every time the NFT exchanges owners. 
+	One complexity would be making sure the owner cannot exchange it to themselves (start an auction and then end it rapidly to gain tarnish level) 
+
+The implication would be that as the NFT tarnishes over time it supposedly increases implicitly in value 2

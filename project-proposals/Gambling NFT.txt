@@ -1,0 +1,6 @@
+Summary: Basically a gacha game but with NFTs. Guarunteed buyback of NFTs, when upon minting there is a random generation of rarity, alongside other factors which play in to the value of an NFT. Alter the probability distribution of average buyback values to turn a profit. 
+
+
+Tech stack:
+- Frontend: Some kind of gambling site or something. I've never seen one and it's kind of hard to describe in words. Basically just an auction site  
+- Backend: Standard NFT auctioning smart contract setup. 

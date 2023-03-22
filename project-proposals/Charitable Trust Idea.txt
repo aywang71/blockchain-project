@@ -1,0 +1,18 @@
+
+Summary: Smart contract system and application set up to distribute the funding of a charitable trust: 
+
+Background: https://www.npr.org/2023/02/22/1158865140/stray-cats-dixfield-maine-trust-inheritance-will
+
+
+Backend smart contract controls and distributes assets of a charitable trust
+
+Prior to the formation of the charitable trust, the person putting funds into the trust would specify criteria for withdrawls from the trust
+
+They could (may or may not be) a third-party group set up to manage the funds of the charitable trust after the individual dies, who can vote on it
+
+Alternatively, it could be done automatically? Not entirely sure how this would work
+
+Tech stack:
+- Frontend: Interaction, proposals to the trust, request funding withdrawals from the trust, see history of trust proposals and withdrawals, etc. 
+- Backend: Smart contract that maintains funds and recieves and reacts to proposals
+	Depending on implementation, there could be a seperate smart contract that contacts the third-party that verifies proposals, as well as some sort of server or array that logs proposals 

@@ -1,0 +1,10 @@
+Summary: Ever heard of the websites where you can buy a star, adopt a monkey, or buy a plot of land in Scotland for lordship? This would add a layer of complexity onto the site by giving users a NFT that both certifies the ownership/purchase/adoption and serves as a token of proof of ownership
+
+Background: https://www.bornfreeusa.org/primate-sanctuary/adopt-monkey/
+
+
+A difficulty here may be generating a unique NFT each time. Would it matter to generate a purely unique one? It could be well randomized but I don't know how you could guaruntee the minting of a unique NFT each time an adoption or purchase occurs
+
+Tech stack:
+- Frontend: Standard purchase site similar to the background URL, nothing really needs to be changed. maybe the customer needs to connect their wallet -- perhaps this could be optional? 
+- Backend: When purchase occurs, there needs to be an NFT smart contract that mints a new NFT and gives ownership of it to the linked wallet. Not sure if this means that the person would have to pay with crypto from their wallet, or just with standard DC or CC
